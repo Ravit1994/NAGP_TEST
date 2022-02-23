@@ -3,15 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/RestAssured_NAGP/RestAssured_NAGP">
         <classes>
-            <class name="api_testcases.Test_flow1">
-            </class>
-            <class name="api_testcases.Test_flow2">
-            </class>
-            <class name="api_testcases.Test_flow3">
-            </class>
-            <class name="api_testcases.Test_flow4">
-            </class>
-            <class name="api_testcases.Test_flow5">
+            <class name="api_testcases.CreateUser">
             </class>
         </classes>
     </test>
