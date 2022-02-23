@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="23" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T14:22:13Z" name="Command line suite" finished-at="2022-02-22T14:22:36Z" duration-ms="23053">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T14:22:13Z" name="Command line test" finished-at="2022-02-22T14:22:36Z" duration-ms="23053">
+      <class name="api_testcases.Test_flow2">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:27Z" name="startTest" finished-at="2022-02-22T14:22:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow2.createBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:27Z" name="setupTest" finished-at="2022-02-22T14:22:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:27Z" name="setupRequest" finished-at="2022-02-22T14:22:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createBoard()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:27Z" name="createBoard" finished-at="2022-02-22T14:22:28Z" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:28Z" name="reportFlush" finished-at="2022-02-22T14:22:28Z" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBoard status=SUCCESS method=Test_flow2.createBoard()[pri:0, instance:api_testcases.Test_flow2@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:28Z" name="startTest" finished-at="2022-02-22T14:22:28Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow2.createList() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:28Z" name="setupRequest" finished-at="2022-02-22T14:22:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createList()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:28Z" name="createList" finished-at="2022-02-22T14:22:29Z" depends-on-methods="api_testcases.Test_flow2.createBoard" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:29Z" name="reportFlush" finished-at="2022-02-22T14:22:29Z" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=Test_flow2.createList()[pri:0, instance:api_testcases.Test_flow2@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:29Z" name="startTest" finished-at="2022-02-22T14:22:29Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow2.archiveList() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:29Z" name="setupRequest" finished-at="2022-02-22T14:22:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="archiveList()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:29Z" name="archiveList" finished-at="2022-02-22T14:22:30Z" depends-on-methods="api_testcases.Test_flow2.createList, api_testcases.Test_flow2.createBoard" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archiveList -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="reportFlush" finished-at="2022-02-22T14:22:30Z" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=archiveList status=SUCCESS method=Test_flow2.archiveList()[pri:0, instance:api_testcases.Test_flow2@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="startTest" finished-at="2022-02-22T14:22:30Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow2.createCard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="setupRequest" finished-at="2022-02-22T14:22:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createCard()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="createCard" finished-at="2022-02-22T14:22:30Z" depends-on-methods="api_testcases.Test_flow2.createList, api_testcases.Test_flow2.createBoard" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="reportFlush" finished-at="2022-02-22T14:22:30Z" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCard status=SUCCESS method=Test_flow2.createCard()[pri:0, instance:api_testcases.Test_flow2@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method signature="updateList()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="updateList" finished-at="2022-02-22T14:22:31Z" depends-on-methods="api_testcases.Test_flow2.createList, api_testcases.Test_flow2.createBoard" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateList -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="startTest" finished-at="2022-02-22T14:22:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow2.updateList() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:30Z" name="setupRequest" finished-at="2022-02-22T14:22:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow2@24313fcc]" started-at="2022-02-22T14:22:31Z" name="reportFlush" finished-at="2022-02-22T14:22:31Z" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateList status=SUCCESS method=Test_flow2.updateList()[pri:0, instance:api_testcases.Test_flow2@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- api_testcases.Test_flow2 -->
+      <class name="api_testcases.Test_flow1">
+        <test-method is-config="true" signature="init()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:12Z" name="init" finished-at="2022-02-22T14:22:13Z" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:13Z" name="setupTest" finished-at="2022-02-22T14:22:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:13Z" name="startTest" finished-at="2022-02-22T14:22:15Z" duration-ms="1584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.createBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:15Z" name="setupRequest" finished-at="2022-02-22T14:22:15Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:15Z" name="createBoard" finished-at="2022-02-22T14:22:20Z" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:20Z" name="reportFlush" finished-at="2022-02-22T14:22:20Z" duration-ms="548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBoard status=SUCCESS method=Test_flow1.createBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:20Z" name="startTest" finished-at="2022-02-22T14:22:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.createList() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:20Z" name="setupRequest" finished-at="2022-02-22T14:22:20Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createList()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:20Z" name="createList" finished-at="2022-02-22T14:22:21Z" depends-on-methods="api_testcases.Test_flow1.createBoard" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:21Z" name="reportFlush" finished-at="2022-02-22T14:22:21Z" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=Test_flow1.createList()[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:21Z" name="startTest" finished-at="2022-02-22T14:22:21Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.getBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:21Z" name="setupRequest" finished-at="2022-02-22T14:22:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="getBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:21Z" name="getBoard" finished-at="2022-02-22T14:22:22Z" depends-on-methods="api_testcases.Test_flow1.createBoard" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:22Z" name="reportFlush" finished-at="2022-02-22T14:22:22Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBoard status=SUCCESS method=Test_flow1.getBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:22Z" name="startTest" finished-at="2022-02-22T14:22:22Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.getFilteredList() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="getFilteredList()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:22Z" name="getFilteredList" finished-at="2022-02-22T14:22:23Z" depends-on-methods="api_testcases.Test_flow1.createBoard" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFilteredList -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:22Z" name="setupRequest" finished-at="2022-02-22T14:22:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:23Z" name="reportFlush" finished-at="2022-02-22T14:22:23Z" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getFilteredList status=SUCCESS method=Test_flow1.getFilteredList()[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:24Z" name="setupRequest" finished-at="2022-02-22T14:22:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:24Z" name="startTest" finished-at="2022-02-22T14:22:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.inviteMembers(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="inviteMembers(java.lang.String)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:24Z" name="inviteMembers" data-provider="email" finished-at="2022-02-22T14:22:25Z" depends-on-methods="api_testcases.Test_flow1.createBoard" duration-ms="988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravit.alaugh@nagarro.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inviteMembers -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:25Z" name="reportFlush" finished-at="2022-02-22T14:22:25Z" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inviteMembers status=SUCCESS method=Test_flow1.inviteMembers(java.lang.String)[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:25Z" name="startTest" finished-at="2022-02-22T14:22:25Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.updateBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:25Z" name="setupRequest" finished-at="2022-02-22T14:22:25Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="updateBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:25Z" name="updateBoard" finished-at="2022-02-22T14:22:26Z" depends-on-methods="api_testcases.Test_flow1.createBoard" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBoard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:26Z" name="reportFlush" finished-at="2022-02-22T14:22:26Z" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateBoard status=SUCCESS method=Test_flow1.updateBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:26Z" name="startTest" finished-at="2022-02-22T14:22:26Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.addMemberToBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:26Z" name="setupRequest" finished-at="2022-02-22T14:22:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="addMemberToBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:26Z" name="addMemberToBoard" finished-at="2022-02-22T14:22:27Z" depends-on-methods="api_testcases.Test_flow1.createBoard, api_testcases.Test_flow1.inviteMembers" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMemberToBoard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:27Z" name="reportFlush" finished-at="2022-02-22T14:22:27Z" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addMemberToBoard status=SUCCESS method=Test_flow1.addMemberToBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:27Z" name="startTest" finished-at="2022-02-22T14:22:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow1.removeMemberFromBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:27Z" name="setupRequest" finished-at="2022-02-22T14:22:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="removeMemberFromBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:27Z" name="removeMemberFromBoard" finished-at="2022-02-22T14:22:27Z" depends-on-methods="api_testcases.Test_flow1.createBoard, api_testcases.Test_flow1.addMemberToBoard, api_testcases.Test_flow1.inviteMembers" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMemberFromBoard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow1@5e5d171f]" started-at="2022-02-22T14:22:27Z" name="reportFlush" finished-at="2022-02-22T14:22:27Z" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeMemberFromBoard status=SUCCESS method=Test_flow1.removeMemberFromBoard()[pri:0, instance:api_testcases.Test_flow1@5e5d171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- api_testcases.Test_flow1 -->
+      <class name="api_testcases.Test_flow4">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:api_testcases.Test_flow4@77f1baf5]" started-at="2022-02-22T14:22:34Z" name="setupTest" finished-at="2022-02-22T14:22:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="createBoard()[pri:0, instance:api_testcases.Test_flow4@77f1baf5]" started-at="2022-02-22T14:22:34Z" name="createBoard" finished-at="2022-02-22T14:22:35Z" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow4@77f1baf5]" started-at="2022-02-22T14:22:34Z" name="setupRequest" finished-at="2022-02-22T14:22:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow4@77f1baf5]" started-at="2022-02-22T14:22:34Z" name="startTest" finished-at="2022-02-22T14:22:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow4.createBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow4@77f1baf5]" started-at="2022-02-22T14:22:35Z" name="reportFlush" finished-at="2022-02-22T14:22:35Z" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBoard status=SUCCESS method=Test_flow4.createBoard()[pri:0, instance:api_testcases.Test_flow4@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- api_testcases.Test_flow4 -->
+      <class name="api_testcases.Test_flow3">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:31Z" name="setupTest" finished-at="2022-02-22T14:22:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:31Z" name="startTest" finished-at="2022-02-22T14:22:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow3.createBoard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:31Z" name="setupRequest" finished-at="2022-02-22T14:22:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createBoard()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:31Z" name="createBoard" finished-at="2022-02-22T14:22:32Z" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:32Z" name="reportFlush" finished-at="2022-02-22T14:22:32Z" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBoard status=SUCCESS method=Test_flow3.createBoard()[pri:0, instance:api_testcases.Test_flow3@7d20d0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method signature="createList()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:32Z" name="createList" finished-at="2022-02-22T14:22:33Z" depends-on-methods="api_testcases.Test_flow3.createBoard" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:32Z" name="startTest" finished-at="2022-02-22T14:22:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow3.createList() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:32Z" name="setupRequest" finished-at="2022-02-22T14:22:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:33Z" name="reportFlush" finished-at="2022-02-22T14:22:33Z" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=Test_flow3.createList()[pri:0, instance:api_testcases.Test_flow3@7d20d0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:33Z" name="startTest" finished-at="2022-02-22T14:22:33Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow3.createCard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:33Z" name="setupRequest" finished-at="2022-02-22T14:22:33Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createCard()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:33Z" name="createCard" finished-at="2022-02-22T14:22:34Z" depends-on-methods="api_testcases.Test_flow3.createList, api_testcases.Test_flow3.createBoard" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:34Z" name="reportFlush" finished-at="2022-02-22T14:22:34Z" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCard status=SUCCESS method=Test_flow3.createCard()[pri:0, instance:api_testcases.Test_flow3@7d20d0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:34Z" name="startTest" finished-at="2022-02-22T14:22:34Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow3.createAttachmentOnCard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:34Z" name="setupRequest" finished-at="2022-02-22T14:22:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method signature="createAttachmentOnCard()[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:34Z" name="createAttachmentOnCard" finished-at="2022-02-22T14:22:34Z" depends-on-methods="api_testcases.Test_flow3.createList, api_testcases.Test_flow3.createBoard, api_testcases.Test_flow3.createCard" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAttachmentOnCard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow3@7d20d0b]" started-at="2022-02-22T14:22:34Z" name="reportFlush" finished-at="2022-02-22T14:22:34Z" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAttachmentOnCard status=SUCCESS method=Test_flow3.createAttachmentOnCard()[pri:0, instance:api_testcases.Test_flow3@7d20d0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- api_testcases.Test_flow3 -->
+      <class name="api_testcases.Test_flow5">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:api_testcases.Test_flow5@41a2befb]" started-at="2022-02-22T14:22:35Z" name="setupTest" finished-at="2022-02-22T14:22:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:api_testcases.Test_flow5@41a2befb]" started-at="2022-02-22T14:22:35Z" name="startTest" finished-at="2022-02-22T14:22:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_testcases.Test_flow5.createOrganisation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="createOrganisation()[pri:0, instance:api_testcases.Test_flow5@41a2befb]" started-at="2022-02-22T14:22:35Z" name="createOrganisation" finished-at="2022-02-22T14:22:36Z" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganisation -->
+        <test-method is-config="true" signature="setupRequest()[pri:0, instance:api_testcases.Test_flow5@41a2befb]" started-at="2022-02-22T14:22:35Z" name="setupRequest" finished-at="2022-02-22T14:22:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:api_testcases.Test_flow5@41a2befb]" started-at="2022-02-22T14:22:36Z" name="reportFlush" finished-at="2022-02-22T14:22:36Z" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createOrganisation status=SUCCESS method=Test_flow5.createOrganisation()[pri:0, instance:api_testcases.Test_flow5@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- api_testcases.Test_flow5 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

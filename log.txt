@@ -1,0 +1,214 @@
+Request method:	POST
+Request URI:	https://favqs.com/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Token token="1bbfd8b5817414b21a945a4ae2cfc4f4"
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "user": {
+        "login": "ravitalaugh123",
+        "email": "ravit.alaugh@nagarro.com",
+        "password": "Password"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 23 Feb 2022 07:34:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Rate-Limit-Remaining: 29
+ETag: W/"69210a4308f51c6d6d23f7dfe4283efd"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 4f9e54fe-86cd-4c25-a46a-9259e57316df
+X-Runtime: 0.329449
+Vary: Origin
+X-Backend-Server: ip-10-0-1-10
+Strict-Transport-Security: max-age=31540000
+
+{
+    "error_code": 32,
+    "message": "Username has already been taken; Email has already been taken"
+}
+Request method:	POST
+Request URI:	https://favqs.com/api/session
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Token token="1bbfd8b5817414b21a945a4ae2cfc4f4"
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "user": {
+        "login": "ravitalaugh123",
+        "email": "ravit.alaugh@nagarro.com",
+        "password": "Password"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 23 Feb 2022 07:34:05 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Rate-Limit-Remaining: 28
+ETag: W/"61f8cd8cf5b9a843312c7bb8fa55ce5d"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _favqs_session=bdHi2bRl%2BH4zUMw1IY1ef5ovf9RI2XKk8mMTTzgQ5f7axqhMPuHh3s9lmJaqw7sBpbf%2BaCHxX9%2BVqQU%2BdKa4HKEbUNUvyO86wqS4Y4HvGJra5Xi7%2BAtqiu0i%2Bb1delj4Q%2Fcm3hRvvG1TAXK1L%2BJFYJlZMorkBoeiaNXlQ0SRwSdooPSs%2FKdqdRM%3D--jMd9HH4PpgQGpK%2Fl--J7L78Aca1uJ1ogipdJXUKA%3D%3D; path=/; expires=Fri, 25 Mar 2022 07:34:05 GMT; HttpOnly
+X-Request-Id: c55dcd8c-a5fb-49e7-a92d-c13ec5153056
+X-Runtime: 0.353526
+Vary: Origin
+X-Backend-Server: ip-10-0-1-10
+Strict-Transport-Security: max-age=31540000
+
+{
+    "User-Token": "o3kx5rFjueRXZKeoeDB6KP+TVhSrEYTjJOlftD9HrEcVb3NqEVwJ5ySY7gYBAG78/Rs04Crgvyp+amwcitrYDA==",
+    "login": "ravitalaugh123",
+    "email": "ravit.alaugh@nagarro.com"
+}
+Request method:	GET
+Request URI:	https://favqs.com/users/ravitalaugh123
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Token token="1bbfd8b5817414b21a945a4ae2cfc4f4"
+				key=value
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 23 Feb 2022 07:34:06 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"3879e4d395bcf37604f19909010c7267"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _favqs_session=DbeNhXv6eL5gprK%2F8v8TxPyNFrt4ZpEDfX1MjECbrf7rP0cELYwLjQfYrO5ixD5vD6u8oBalsHX0IyJiLgdDSRlnVE9oQGPB0xIb578S7QC%2FSTMBCc1rJdmHq0XvikP%2Fn1PgNZb9LB%2BwIG3Z8X6vZOFxUPoKTKqFyREkMgnmB4f5pcCed4KZ6nDSmaRj6%2BVj04AKvIK563o0%2FH2cyerR1ifAEdFoo2SkxHkPEitw9TTiS5wBGXriaS0ZyKxgavO6p69XxT1xA2OsWu8oyxduo3JZs%2F98RtnP6Q%3D%3D--VVrMl6mZIJNE2ri1--BoaAUb36yDJ4XLyX3TaeyA%3D%3D; path=/; expires=Fri, 25 Mar 2022 07:34:06 GMT; HttpOnly
+X-Request-Id: 2cebdb0c-dfba-41f0-abaa-9927e1aa932b
+X-Runtime: 0.018902
+Vary: Origin
+X-Backend-Server: ip-10-0-1-10
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31540000
+
+<html>
+  <head>
+    <title>FavQs  - ravitalaugh123 favorite quotes</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" media="all" href="/assets/application-4ca6a2c4a955fa834a42975c2fc8ea24c9eecc0576bc6c96bc678392fba11394.css" data-turbolinks-track="reload"/>
+    <script src="/assets/application-e27580dae1e688296a7d4d310c5ba4dd26e8cddf3de9d7cbba75e420a3691ca3.js" data-turbolinks-track="reload"/>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/>
+    <script src="//unpkg.com/@elastic/apm-rum@5.9.1/dist/bundles/elastic-apm-rum.umd.min.js"/>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="tYWa8Rzy3VLm3+UKdANoBse0+BbA6S+nx8qRqbovSBC/xfQQOXcyKP7nnnCrAbNFn9RVjwQe8iTcFBibnoSc/Q=="/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="https://favqs.s3.amazonaws.com/q16.png" rel="shortcut icon"/>
+    <link href="https://favqs.s3.amazonaws.com/q57.png" rel="apple-touch-icon"/>
+    <link href="https://favqs.s3.amazonaws.com/q72.png" rel="apple-touch-icon" sizes="72x72"/>
+    <link href="https://favqs.s3.amazonaws.com/q114.png" rel="apple-touch-icon" sizes="114x114"/>
+    <link href="https://favqs.s3.amazonaws.com/q144.png" rel="apple-touch-icon" sizes="144x144"/>
+  </head>
+  <body class="container">
+    <div class="header">
+      <div class="account pull-right">
+        <div id="account">
+          <a shape="rect" href="/new">Add a Quote</a>
+  ·            <a shape="rect" id="login-button" href="/login">Login</a>
+        </div>
+        <a shape="rect" class="account-minimal" style="font-size: 1.7em;" href="/about">
+          <span class="glyphicon glyphicon-plus"/>
+        </a>
+           <a shape="rect" class="account-minimal" id="login-button-minimal" style="font-size: 1.8em;" href="/login">
+          <span class="glyphicon glyphicon-user"/>
+        </a>
+      </div>
+      <h3>
+        <a shape="rect" class="logo" href="/">
+          <img src="/assets/q144-46020d9b2acace90020eb8bba5cbd91f49765c9c5f2b37d1500d41673a04e484.png"/>
+          <span>FavQs</span>
+        </a>
+      </h3>
+      <div class="slogan">Fav Quotes</div>
+    </div>
+    <div class="content">
+      <div class="pull-right follow user_22603">
+        <a shape="rect" class="btn btn-info btn-sm" data-remote="true" href="/users/ravitalaugh123/follow">
+          <span class="glyphicon glyphicon-plus-sign"/>
+  Follow User        </a>
+      </div>
+      <h1>
+        <img class="img-circle" alt="" src="https://favqs.s3.amazonaws.com/avatar.png"/>
+ ravitalaugh123        <span style="font-size: 1em; font-weight: normal; color: #bbb;"> has 0 favorites</span>
+      </h1>
+      <br clear="none"/>
+      <h2>Latest Activity</h2>
+      <table class="table table-condensed table-striped">
+        <tr>
+          <td colspan="1" rowspan="1">No activity</td>
+        </tr>
+      </table>
+      <div class="text-center">
+        <form enctype="application/x-www-form-urlencoded" method="POST" action="/users/ravitalaugh123/pro/purchase">
+          <script class="stripe-button" data-allow-remember-me="false" data-amount="599" data-description="1 Year Subscription" data-email="" data-image="https://favqs.s3.amazonaws.com/favqs-128.png" data-key="" data-label="Give Pro for $5.99" data-name="FavQs Pro" src="https://checkout.stripe.com/checkout.js"/>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        <a shape="rect" class="btn btn-link" style="padding: 5px 10px;" href="/about">About</a>
+·        <a shape="rect" class="btn btn-link" style="padding: 5px 10px;" href="/app">App</a>
+·        <a shape="rect" class="btn btn-link" style="padding: 5px 10px;" href="/slack">Slack</a>
+·        <a shape="rect" class="btn btn-link" style="padding: 5px 10px;" href="/api">API</a>
+·        <a shape="rect" class="btn btn-link" style="padding: 5px 10px;" href="/legal">Legal</a>
+      </p>
+      <p style="font-size: 0.9em;">
+        <a shape="rect" href="http://www.facetedthought.com">Faceted Thought, LLC</a>
+ © 2013 - 2022      </p>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5628200-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
